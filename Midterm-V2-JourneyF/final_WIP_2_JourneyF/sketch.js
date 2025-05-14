@@ -104,7 +104,7 @@ class Cookie
     ];
   }
 
-  displayChips() //showing each chip(but it's now displaying the chips)
+  displayChips() //showing each chip(but it's NOT displaying the chips)
   {
   noStroke();
   for (let i=0; i<this.chipPosition; i++) //loops chip placements
